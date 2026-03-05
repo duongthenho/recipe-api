@@ -30,6 +30,8 @@ func main() {
 	http.HandleFunc("/recipes/", handlers.GetRecipeDetail)
 	http.HandleFunc("/seed", handlers.SeedData)
 	http.HandleFunc("/deleteById/", handlers.DeleteRecipe)
+	http.HandleFunc("/deleteAll", handlers.DeleteAll)
+
 	port := os.Getenv("PORT")
 	if port == "" {
 		port = "8080"

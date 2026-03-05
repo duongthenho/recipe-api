@@ -48,10 +48,55 @@ func SeedData(w http.ResponseWriter, r *http.Request) {
 				"bún", "thịt lợn", "nước mắm", "đu đủ", "tỏi",
 			},
 			Steps: []seedStep{
-				{"Ướp thịt", "https://haiphu.vn/web/image/3525-268f086b/1-gia-vi-uop-thit-nuong.jpg"},
+				{"Ướp thịt", "https://haiphu.vn/web/image/3525-268f086b/1-gia-vi-uop-thit-nuong.jpg?access_token=22098ab2-0a2f-471e-a51a-5e726417c60d"},
 				{"Nướng thịt", "https://kungfu.com.vn/public/images/cach-uop-thit-nuong.jpg"},
-				{"Pha nước chấm", "https://haiphu.vn/web/image/3350-40ff51e2/1-nuoc-cham-bun-thit-nuong.jpg"},
+				{"Pha nước chấm", "https://haiphu.vn/web/image/3350-40ff51e2/1-nuoc-cham-bun-thit-nuong.jpg?access_token=0160742c-d4a4-4a7b-96e9-9dd33db76dc9"},
 				{"Ăn kèm bún và rau", "https://cdn.xanhsm.com/2025/01/40f46d34-bun-cha-ha-noi-o-tphcm-2-min.jpg"},
+			},
+		},
+		{
+			Title:   "Spaghetti Carbonara",
+			Image:   "https://images.unsplash.com/photo-1603133872878-684f208fb84b",
+			Cuisine: "Ý",
+			Views:   151,
+			Ingredients: []string{
+				"mì spaghetti", "trứng", "phô mai", "thịt xông khói",
+			},
+			Steps: []seedStep{
+				{"Luộc mì", "https://vietgiao.edu.vn/wp-content/uploads/2021/04/hoc-nau-an-co-ban-1.jpg"},
+				{"Chiên thịt xông khói", "https://vietgiao.edu.vn/wp-content/uploads/2021/04/hoc-nau-an-co-ban-1.jpg"},
+				{"Trộn trứng và phô mai", "https://vietgiao.edu.vn/wp-content/uploads/2021/04/hoc-nau-an-co-ban-1.jpg"},
+				{"Trộn với mì", "https://vietgiao.edu.vn/wp-content/uploads/2021/04/hoc-nau-an-co-ban-1.jpg"},
+			},
+		},
+		{
+			Title:   "Sushi cuộn",
+			Image:   "https://ibuki.vn/wp-content/uploads/2021/10/Com-cuon-dac-biet-sushi-scaled.jpeg",
+			Cuisine: "Nhật Bản",
+			Views:   255,
+			Ingredients: []string{
+				"cơm sushi", "rong biển", "cá hồi", "dưa leo",
+			},
+			Steps: []seedStep{
+				{"Trải rong biển", "https://vietgiao.edu.vn/wp-content/uploads/2021/04/hoc-nau-an-co-ban-1.jpg"},
+				{"Cho cơm lên", "https://vietgiao.edu.vn/wp-content/uploads/2021/04/hoc-nau-an-co-ban-1.jpg"},
+				{"Xếp nhân", "https://vietgiao.edu.vn/wp-content/uploads/2021/04/hoc-nau-an-co-ban-1.jpg"},
+				{"Cuộn và cắt", "https://vietgiao.edu.vn/wp-content/uploads/2021/04/hoc-nau-an-co-ban-1.jpg"},
+			},
+		},
+		{
+			Title:   "Cơm chiên trứng",
+			Image:   "https://cdn11.dienmaycholon.vn/filewebdmclnew/public/userupload/files/kien-thuc/cach-lam-com-chien-trung/cach-lam-com-chien-trung-1.jpg",
+			Cuisine: "Châu Á",
+			Views:   23,
+			Ingredients: []string{
+				"cơm", "trứng", "hành lá", "nước mắm",
+			},
+			Steps: []seedStep{
+				{"Phi hành", "https://vietgiao.edu.vn/wp-content/uploads/2021/04/hoc-nau-an-co-ban-1.jpg"},
+				{"Cho trứng", "https://vietgiao.edu.vn/wp-content/uploads/2021/04/hoc-nau-an-co-ban-1.jpg"},
+				{"Cho cơm", "https://vietgiao.edu.vn/wp-content/uploads/2021/04/hoc-nau-an-co-ban-1.jpg"},
+				{"Nêm gia vị", "https://vietgiao.edu.vn/wp-content/uploads/2021/04/hoc-nau-an-co-ban-1.jpg"},
 			},
 		},
 	}
